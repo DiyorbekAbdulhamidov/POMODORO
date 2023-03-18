@@ -39,3 +39,23 @@ body {
     font-weight: 600;
     cursor: pointer;
 }
+.time-item {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;    
+}
+
+#pause {
+    display: none;
+}
